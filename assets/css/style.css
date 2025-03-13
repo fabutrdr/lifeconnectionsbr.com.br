@@ -1248,11 +1248,52 @@ section {
   background-color: rgba(17, 158, 40, 0.5);
 }
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(140, 243, 157);
 }
 
 @media (max-width: 768px) {
   .planos {
     max-width: 50%;
+  }
+}
+
+/* Formatacao do css premios  */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.section-header-pb-5 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 800px; /* Ajuste conforme necessário */
+}
+
+.row a {
+  flex: 1 1 calc(25% - 10px); /* 4 imagens por linha */
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+.row img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Para garantir que as imagens fiquem em duas colunas */
+@media (max-width: 768px) {
+  .row a {
+      flex: 1 1 calc(50% - 10px); /* 2 imagens por linha em telas menores */
   }
 }
