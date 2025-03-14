@@ -1,0 +1,278 @@
+.logo {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 100%;
+    background-image: url("../../../public/images/Logo/logo-medio.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation: breathe 2s infinite alternate 0.5s;
+    margin: 10px 0 0 30px;
+}
+
+@keyframes breathe {
+    0% {
+        box-shadow: 0.1px 0.1px 10px var(--c-green);
+    }
+    100% {
+        box-shadow: 2px 2px 30px var(--c-green);
+    }
+}
+
+.mainContainer {
+    width: 360px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.upperContainer {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottonContainer {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.assinante {
+    color: var(--c-white);
+    font-weight: bolder;
+    font-size: 1.8rem;
+    padding: 1rem;
+    text-decoration: none;
+    border: 1px solid var(--c-darkGreen);
+    border-radius: 1rem;
+    background: linear-gradient(to left, var(--c-green), var(--c-darkGreen));
+}
+
+.assinante:hover, .assinante:focus {
+    box-shadow: 2px 2px 5px var(--c-darkGreen);
+    color: var(--c-green);
+    background: linear-gradient(to left, var(--c-white), var(--c-darkGreen));
+}
+
+#special-tt {
+    color: var(--c-green);
+    font-weight: 400;
+    font-family: var(--f-poetsen);
+}
+
+/*mobile icon show*/
+
+.iconWhite {
+    color: var(--c-white);
+    font-size: 2.5rem;
+}
+
+.mobileSocial {
+    width: 90px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobileWhatsapp {
+    width: 80px;
+    height: 80px;
+    background-color: var(--c-green);
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px var(--gray);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.mobileFacebook {
+    width: 80px;
+    height: 80px;
+    background-color: var(--facebook);
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px var(--gray);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobileInstagram {
+    width: 80px;
+    height: 80px;
+    background-image: var(--instagram);
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px var(--gray);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobileLinkedin {
+    width: 80px;
+    height: 80px;
+    background-color: var(--linkedin);
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px var(--gray);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*-----------------------TABLET------------------------------*/
+
+.tabletNavbar {
+    width: 100%;
+}
+
+.tabletSocial {
+    color: var(--c-white);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-weight: bolder;
+}
+
+.tabletWhatspp {
+    background-color: var(--c-green);
+}
+
+.tabletFacebook {
+    background-color: var(--facebook);
+}
+
+.tabletInstagram {
+    background-image: var(--instagram);
+}
+
+.tabletLinkedin {
+    background-color: var(--linkedin);
+}
+
+@media (min-width: 577px) and (max-width: 1024px) {
+    .logo {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+/*-----------------------DESKTOP------------------------------*/
+
+.desktopList {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.desktopNavItem {   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desktopIcon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--c-green);
+    border-radius: 50%;
+}
+
+.desktopWhatsapp:hover {
+    background-color: var(--c-white);
+    animation: Wbreathe 0.5s infinite alternate 0.1s;
+}
+
+.desktopWhatsapp:hover i {
+    color: var(--c-green);
+    font-weight: bolder;
+}
+
+@keyframes Wbreathe {
+    0% {
+        box-shadow: 0.1px 0.1px 10px var(--c-green);
+    }
+    100% {
+        box-shadow: 2px 2px 30px var(--c-green);
+    }
+}
+
+.desktopFacebook:hover {
+    background-color: var(--c-white);
+    border-color: var(--facebook);
+    animation: Fbreathe 0.5s infinite alternate 0.1s;
+}
+
+.desktopFacebook:hover i {
+    color: var(--facebook);
+    font-weight: bolder;
+}
+
+@keyframes Fbreathe {
+    0% {
+        box-shadow: 0.1px 0.1px 10px var(--facebook);
+    }
+    100% {
+        box-shadow: 2px 2px 30px var(--facebook);
+    }
+}
+
+.desktopInstagram:hover {
+    background-image: var(--instagram);
+    border-color: blueviolet;
+    animation: Ibreathe 0.5s infinite alternate 0.1s;
+}
+
+.desktopInstagram:hover i {
+    color: var(--c-white);
+    font-weight: bolder;
+}
+
+@keyframes Ibreathe {
+    0% {
+        box-shadow: 0.1px 0.1px 10px yellow;
+    }
+    100% {
+        box-shadow: 2px 2px 30px yellow;
+    }
+}
+
+.desktopLinkedin:hover {
+    background-color: var(--c-white);
+    border-color: var(--linkedin);
+    animation: Lbreathe 0.5s infinite alternate 0.1s;
+}
+
+.desktopLinkedin:hover i {
+    color: var(--linkedin);
+    font-weight: bolder;
+}
+
+@keyframes Lbreathe {
+    0% {
+        box-shadow: 0.1px 0.1px 10px var(--linkedin);
+    }
+    100% {
+        box-shadow: 2px 2px 30px var(--linkedin);
+    }
+}
