@@ -1,0 +1,222 @@
+.carouselItem {
+    width: 400px;
+    height: auto;
+}
+
+/*  CARD   */
+
+.ImgFixed {
+    height: 250px;
+}
+
+.Card {
+    background-color: lightgray;
+    margin-left: 4.5rem;
+    width: 18rem;
+    height: 600px;
+}
+
+.cardTitle {
+    font-family: var(--f-poetsen);
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    color: var(--c-darkGreen);
+}
+
+.cardText {
+    font-family: var(--f-roboto);
+    font-weight: bolder;
+    font-size: 1.2rem;
+    text-align: center;
+    color: var(--c-green);
+}
+
+.cardLink {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: var(--c-white);
+    width: 2rem;
+    height: 1rem;
+    border: 1px solid var(--c-darkGreen);
+    border-radius: 0.3rem;
+    padding: 0.5rem 1rem;
+    background: linear-gradient(90deg, var(--c-animationDarkGreen) 0%, var(--c-animationGreen) 21%, var(--c-animationDarkGreen) 84%);
+    animation: glow 2s infinite 1s;
+    transition: transform 3s ease-in-out;
+}
+
+.listGroupItem {
+    font-family: var(--f-roboto);
+    font-size: 1rem;
+    color: var(--c-darkGreen);
+    background-color: lightgray;
+}
+
+@keyframes glow {
+    0% {
+        background: linear-gradient(-45deg, var(--c-animationDarkGreen) 0%, var(--c-animationGreen) 21%, var(--c-animationDarkGreen) 84%);
+    }
+
+    2.5% {
+        background: linear-gradient(-40deg, var(--c-animationDarkGreen) 0%, var(--c-animationGreen) 21%, var(--c-animationDarkGreen) 84%);
+    }
+
+    5% {
+        background: linear-gradient(-35deg, var(--c-animationDarkGreen) 0%, var(--c-animationGreen) 21%, var(--c-animationDarkGreen) 84%);
+    }
+
+    7.5% {
+        background: linear-gradient(-30deg, var(--c-animationDarkGreen) 0%, var(--c-animationGreen) 21%, var(--c-animationDarkGreen) 84%);
+    }
+
+    10% {
+        background: linear-gradient(-25deg, var(--c-animationDarkGreen) 0%, var(--c-animationGreen) 21%, var(--c-animationDarkGreen) 84%);
+    }
+
+    12.5% {
+        background: linear-gradient(-20deg, var(--c-animationDarkGreen) 0%, var(--c-animationGreen) 21%, var(--c-animationDarkGreen) 84%);
+    }
+
+    15% {
+        background: linear-gradient(-15deg, var(--c-animationDarkGreen) 0%, var(--c-animationGreen) 21%, var(--c-animationDarkGreen) 84%);
+    }
+
+    17.5% {
+        background: linear-gradient(-10deg, var(--c-animationDarkGreen) 0%, var(--c-animationGreen) 21%, var(--c-animationDarkGreen) 84%);
+    }
+
+    20% {
+        background: linear-gradient(-5deg, var(--c-animationDarkGreen) 0%, var(--c-animationGreen) 21%, var(--c-animationDarkGreen) 84%);
+    }
+
+    22.5% {
+        background: linear-gradient(0deg, var(--c-animationDarkGreen) 0%, var(--c-animationGreen) 21%, var(--c-animationDarkGreen) 84%);
+    }
+
+    25% {
+        background: linear-gradient(5deg, var(--c-animationDarkGreen) 0%, var(--c-animationGreen) 21%, var(--c-animationDarkGreen) 84%);
+    }
+
+    27.5% {
+        background: linear-gradient(10deg, var(--c-animationDarkGreen) 0%, var(--c-animationGreen) 21%, var(--c-animationDarkGreen) 84%);
+    }
+
+    30% {
+        background: linear-gradient(15deg, var(--c-animationDarkGreen) 0%, var(--c-animationGreen) 21%, var(--c-animationDarkGreen) 84%);
+    }
+
+    32.5% {
+        background: linear-gradient(20deg, var(--c-animationDarkGreen) 0%, var(--c-animationGreen) 21%, var(--c-animationDarkGreen) 84%);
+    }
+
+    35% {
+        background: linear-gradient(25deg, var(--c-animationDarkGreen) 0%, var(--c-animationGreen) 21%, var(--c-animationDarkGreen) 84%);
+    }
+
+    37.5% {
+        background: linear-gradient(30deg, var(--c-animationDarkGreen) 0%, var(--c-animationGreen) 21%, var(--c-animationDarkGreen) 84%);
+    }
+
+    40% {
+        background: linear-gradient(35deg, var(--c-animationDarkGreen) 0%, var(--c-animationGreen) 21%, var(--c-animationDarkGreen) 84%);
+    }
+
+    42.5% {
+        background: linear-gradient(40deg, var(--c-animationDarkGreen) 0%, var(--c-animationGreen) 21%, var(--c-animationDarkGreen) 84%);
+    }
+
+    45% {
+        background: linear-gradient(45deg, var(--c-animationDarkGreen) 0%, var(--c-animationGreen) 21%, var(--c-animationDarkGreen) 84%);
+    }
+
+    47.5% {
+        background: linear-gradient(50deg, var(--c-animationDarkGreen) 0%, var(--c-animationGreen) 21%, var(--c-animationDarkGreen) 84%);
+    }
+
+    50% {
+        background: linear-gradient(55deg, var(--c-animationDarkGreen) 0%, var(--c-animationGreen) 21%, var(--c-animationDarkGreen) 84%);
+    }
+
+    52.5% {
+        background: linear-gradient(50deg, var(--c-animationDarkGreen) 0%, var(--c-animationGreen) 21%, var(--c-animationDarkGreen) 84%);
+    }
+
+    55% {
+        background: linear-gradient(45deg, var(--c-animationDarkGreen) 0%, var(--c-animationGreen) 21%, var(--c-animationDarkGreen) 84%);
+    }
+
+    57.5% {
+        background: linear-gradient(40deg, var(--c-animationDarkGreen) 0%, var(--c-animationGreen) 21%, var(--c-animationDarkGreen) 84%);
+    }
+
+    60% {
+        background: linear-gradient(35deg, var(--c-animationDarkGreen) 0%, var(--c-animationGreen) 21%, var(--c-animationDarkGreen) 84%);
+    }
+
+    62.5% {
+        background: linear-gradient(30deg, var(--c-animationDarkGreen) 0%, var(--c-animationGreen) 21%, var(--c-animationDarkGreen) 84%);
+    }
+
+    65% {
+        background: linear-gradient(25deg, var(--c-animationDarkGreen) 0%, var(--c-animationGreen) 21%, var(--c-animationDarkGreen) 84%);
+    }
+
+    67.5% {
+        background: linear-gradient(20deg, var(--c-animationDarkGreen) 0%, var(--c-animationGreen) 21%, var(--c-animationDarkGreen) 84%);
+    }
+
+
+    70% {
+        background: linear-gradient(15deg, var(--c-animationDarkGreen) 0%, var(--c-animationGreen) 21%, var(--c-animationDarkGreen) 84%);
+    }
+
+    72.5% {
+        background: linear-gradient(10deg, var(--c-animationDarkGreen) 0%, var(--c-animationGreen) 21%, var(--c-animationDarkGreen) 84%);
+    }
+
+    75% {
+        background: linear-gradient(5deg, var(--c-animationDarkGreen) 0%, var(--c-animationGreen) 21%, var(--c-animationDarkGreen) 84%);
+    }
+
+    77.5% {
+        background: linear-gradient(0deg, var(--c-animationDarkGreen) 0%, var(--c-animationGreen) 21%, var(--c-animationDarkGreen) 84%);
+    }
+
+    80% {
+        background: linear-gradient(-5deg, var(--c-animationDarkGreen) 0%, var(--c-animationGreen) 21%, var(--c-animationDarkGreen) 84%);
+    }
+
+    82.5% {
+        background: linear-gradient(-10deg, var(--c-animationDarkGreen) 0%, var(--c-animationGreen) 21%, var(--c-animationDarkGreen) 84%);
+    }
+
+    85% {
+        background: linear-gradient(-15deg, var(--c-animationDarkGreen) 0%, var(--c-animationGreen) 21%, var(--c-animationDarkGreen) 84%);
+    }
+
+    87.5% {
+        background: linear-gradient(-20deg, var(--c-animationDarkGreen) 0%, var(--c-animationGreen) 21%, var(--c-animationDarkGreen) 84%);
+    }
+
+    90% {
+        background: linear-gradient(-25deg, var(--c-animationDarkGreen) 0%, var(--c-animationGreen) 21%, var(--c-animationDarkGreen) 84%);
+    }
+
+    92.5% {
+        background: linear-gradient(-30deg, var(--c-animationDarkGreen) 0%, var(--c-animationGreen) 21%, var(--c-animationDarkGreen) 84%);
+    }
+
+    95% {
+        background: linear-gradient(-35deg, var(--c-animationDarkGreen) 0%, var(--c-animationGreen) 21%, var(--c-animationDarkGreen) 84%);
+    }
+
+    97.5% {
+        background: linear-gradient(-40deg, var(--c-animationDarkGreen) 0%, var(--c-animationGreen) 21%, var(--c-animationDarkGreen) 84%);
+    }
+
+    100% {
+        background: linear-gradient(-45deg, var(--c-animationDarkGreen) 0%, var(--c-animationGreen) 21%, var(--c-animationDarkGreen) 84%);
+    }
+}
