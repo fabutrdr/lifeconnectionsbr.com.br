@@ -1,0 +1,156 @@
+.sectionContato {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contatoChild {
+    width: 400px;
+    height: auto;
+    color: var(--c-green);
+    text-align: center;
+}
+
+.sectionForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.formBorder {
+    border: 1px solid var(--c-green);
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+}
+
+.formSpace {
+    width: 380px;
+    height: auto;
+}
+
+.formNameInput {
+    width: 100%;
+    border-radius: 0.2rem;
+    border: 1px solid var(--c-green);
+    color: rgb(32, 255, 3);
+    background-color: var(--c-dark);
+}
+
+.formTel {
+    width: 30%;
+    border-radius: 0.2rem;
+    border: 1px solid var(--c-green);
+    color: rgb(32, 255, 3);
+    background-color: var(--c-dark);
+    margin-right: 1rem;
+}
+
+.formMail {
+    width: 65%;
+    border-radius: 0.2rem;
+    border: 1px solid var(--c-green);
+    color: rgb(32, 255, 3);
+    background-color: var(--c-dark);
+}
+
+.formMessage {
+    width: 100%;
+    height: 100px;
+    border-radius: 0.2rem;
+    border: 1px solid var(--c-green);
+    color: rgb(32, 255, 3);
+    background-color: var(--c-dark);
+}
+
+.formButton {
+    background-color: var(--c-green);
+    color: var(--c-black);
+    font-weight: bold;
+}
+
+@media (min-width: 431px) and (max-width: 1025px) {
+    .contatoChild {
+        width: 800px;
+    }
+
+    .titleWhere {
+        font-size: 5rem;
+    }
+
+    .contatoEmail {
+        font-size: 2.5rem;
+    }
+
+    .contatoNumber {
+        font-size: 2rem;
+    }
+
+    .contatoChild {
+        width: 80%;
+    }
+
+    .sectionForm {
+        padding-top: 1.5rem;
+    }
+
+    .formSpace {
+        width: 90%;
+    }
+
+    .formNameInput {
+        height: 4.5rem;
+    }
+
+    .formNameInput::placeholder {
+        font-size: 2rem;
+    }
+
+    .formTel {
+        height: 4.5rem;
+        margin-right: 2rem;
+    }
+
+    .formTel::placeholder {
+        font-size: 2rem;
+    }
+
+    .formMail {
+        height: 4.5rem;
+    }
+
+    .formMail::placeholder {
+        font-size: 2rem;
+    }
+
+    .formMessage {
+        height: 10rem;
+    }
+
+    .formMessage::placeholder {
+        font-size: 2rem;
+    }
+
+    .formButton {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .descritivoTitulo {
+        font-size: 4rem;
+    }
+
+    .descritivoTexto {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 1026px) and (max-width: 2500px) {
+    .contatoChild {
+        width: 80%;
+    }
+}
