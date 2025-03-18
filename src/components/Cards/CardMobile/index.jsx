@@ -1,6 +1,7 @@
 import styles from "./CardMobile.module.css";
 
 const MobileCard = ({price, image, isActive, alt, validador}) => {
+
     return (
         <div className={`carousel-item ${styles.carouselItem} ${isActive? "active" : ''}`}>
             <div className={`card ${styles.Card} ${styles.neon}`}>

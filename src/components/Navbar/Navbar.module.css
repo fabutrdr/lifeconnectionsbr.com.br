@@ -3,7 +3,7 @@
     height: 100px;
     border: 2px solid black;
     border-radius: 100%;
-    background-image: url("../../../public/images/Logo/logo-medio.png");
+    background-image: url("../../assets/image/Logo/logo-medio.png");
     background-repeat: no-repeat;
     background-size: contain;
     animation: breathe 2s infinite alternate 0.5s;

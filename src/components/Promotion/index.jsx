@@ -1,6 +1,10 @@
 import styles from './Promotion.module.css';
 import PromotionCard from './PromotionCard';
 import Premiacao from './PremiacaoCard/index';
+import streamingTv from "../../assets/image/plans/tv.png";
+import telefone from "../../assets/image/plans/voip.jpg";
+import ipFixo from "../../assets/image/plans/ipfixo.jpg";
+import ultraVelocidade from "../../assets/image/gallery/life03.png"
 
 const Promotion = () => {
     return (
@@ -8,7 +12,7 @@ const Promotion = () => {
             <PromotionCard
                 titulo={"Streaming TV"}
                 texto={"Aproveite a novidade e contrate nosso serviço de canais de tv!"} 
-                image={"../../../public/images/plans/tv.png"}
+                image={streamingTv}
                 alt={"Serviço de canais pela internet"}
                 textoBotao={"Confira nossa grade! "}
             />
@@ -16,7 +20,7 @@ const Promotion = () => {
             <PromotionCard
                 titulo={"Telefonia"} 
                 texto={"Realize ligações ilimitadas para todo o território brasileiro"}
-                image={"../../../public/images/plans/voip.jpg"}
+                image={telefone}
                 alt={"Serviço de telefonia pela internet"}
                 textoBotao={"Falar com um atendente! "}
             />
@@ -24,7 +28,7 @@ const Promotion = () => {
             <PromotionCard
                 titulo={"IP Fixo"}
                 texto={"Para aqueles que buscam realizar tarefas mais elaboradas e acessos de fora da rede!"} 
-                image={"../../../public/images/plans/ipfixo.jpg"}
+                image={ipFixo}
                 alt={"Serviço de ip fixo"}
                 textoBotao={"Falar com um atendente! "}
             />
@@ -32,7 +36,7 @@ const Promotion = () => {
             <Premiacao/>
 
             <div className={styles.promotionImage}>
-                <img src="../../../public/images/gallery/life03.png" alt="Internet de ultravelocidade para você e sua família." className="card-image"/>
+                <img src={ultraVelocidade} alt="Internet de ultravelocidade para você e sua família." className="card-image"/>
             </div>
 
             

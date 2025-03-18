@@ -3,6 +3,11 @@ import MobileCard from '../Cards/CardMobile';
 import TabletCard from '../Cards/CardTablet';
 import styles from './Carousel.module.css';
 
+import imageUnlimited from "../../assets/image/plans/unlimited.jpeg";
+import image400 from "../../assets/image/plans/400mb.jpeg";
+import image600 from "../../assets/image/plans/600mb.jpeg";
+import image800 from "../../assets/image/plans/800mb.jpeg";
+
 const Carousel = () => {
     return (
         <>
@@ -20,7 +25,7 @@ const Carousel = () => {
 
                     <MobileCard 
                         price={"R$149,90"}
-                        image={"../../../public/images/plans/unlimited.jpeg"}
+                        image={imageUnlimited}
                         isActive={"active"}
                         alt={"Imagem representando o plano sem limites!"}
                         validador={true}
@@ -28,19 +33,19 @@ const Carousel = () => {
 
                     <MobileCard 
                         price={"R$79,90"}
-                        image={"../../../public/images/plans/400mb.jpeg"}
+                        image={image400}
                         alt={"Imagem representando o plano de 400mb."}
                     />
 
                     <MobileCard 
                         price={"R$99,90"}
-                        image={"../../../public/images/plans/600mb.jpeg"}
+                        image={image600}
                         alt={"Imagem representando o plano de 600mb."}
                     />
 
                     <MobileCard 
                         price={"R$139,90"}
-                        image={"../../../public/images/plans/800mb.jpeg"}
+                        image={image800}
                         alt={"Imagem representando o plano de 800mb."}
                         validador={true}
                     />                    
