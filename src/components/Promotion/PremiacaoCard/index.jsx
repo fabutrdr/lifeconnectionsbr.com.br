@@ -13,7 +13,7 @@ const Premiacao = () => {
         } else if (width >= 501 && width < 1050) {
             return {width: 500, height: 250};
         } else {
-            return {width: 1500, height: 750};
+            return {width: 800, height: 400};
         }
     }
 

@@ -66,26 +66,26 @@ const Carousel = () => {
 
                 <TabletCard 
                     price={"R$79,90"}
-                    image={"../../../public/images/plans/400mb.jpeg"}
+                    image={image400}
                     alt={"Imagem representando o plano de 400mb."}
                 />
 
                 <TabletCard 
                     price={"R$99,90"}
-                    image={"../../../public/images/plans/600mb.jpeg"} 
+                    image={image600} 
                     alt={"Imagem representando o plano de 600mb."}
                 />
 
                 <TabletCard 
                     price={"R$139,90"}
-                    image={"./../../public/images/plans/800mb.jpeg"}
+                    image={image800}
                     alt={"Imagem representando o plano de 800mb."}
                     validador={true}
                 />
 
                 <TabletCard 
                     price={"R$149,90"}
-                    image={"../../../public/images/plans/unlimited.jpeg"}
+                    image={imageUnlimited}
                     alt={"Imagem representando o plano sem limites!"}
                     validador={true}
                 />
@@ -96,23 +96,23 @@ const Carousel = () => {
             <section className={`${styles.sectionCarouselDesktop} mt-5 d-none d-lg-none d-xxl-flex`}>
                 <DesktopCard
                     price={"R$79,90"}
-                    image={"../../../public/images/plans/400mb.jpeg"}
+                    image={image400}
                     alt={"Imagem representando o plano de 400mb."}
                 />
                 <DesktopCard
                     price={"R$99,90"}
-                    image={"../../../public/images/plans/600mb.jpeg"}
+                    image={image600}
                     alt={"Imagem representando o plano de 600mb."}
                 />
                 <DesktopCard 
                     price={"R$139,90"}
-                    image={"./../../public/images/plans/800mb.jpeg"}
+                    image={image800}
                     alt={"Imagem representando o plano de 800mb."}
                     maior={true}
                 />
                 <DesktopCard 
                     price={"R$149,90"}
-                    image={"../../../public/images/plans/unlimited.jpeg"}
+                    image={imageUnlimited}
                     alt={"Imagem representando o plano sem limites."}
                     maior={true}
                 />

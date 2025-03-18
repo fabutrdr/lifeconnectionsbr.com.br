@@ -19,9 +19,12 @@
     }
 }
 
-@media (min-width: 1026px) and (max-width: 2500px) {
+@media (min-width: 1026px) {
     .sectionPromotion {
-        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
         gap: 3rem;
     }
 }

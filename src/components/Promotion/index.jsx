@@ -15,6 +15,7 @@ const Promotion = () => {
                 image={streamingTv}
                 alt={"Serviço de canais pela internet"}
                 textoBotao={"Confira nossa grade! "}
+                link={"https://api.whatsapp.com/send?phone=558003334321&text=Ol%C3%A1,%20gostaria%20de%20conhecer%20o%20serviço%20de%20canais!"}
             />
 
             <PromotionCard
@@ -23,6 +24,7 @@ const Promotion = () => {
                 image={telefone}
                 alt={"Serviço de telefonia pela internet"}
                 textoBotao={"Falar com um atendente! "}
+                link={"https://api.whatsapp.com/send?phone=558003334321&text=Ol%C3%A1,%20gostaria%20de%20conhecer%20o%20serviço%20de%20telefonia!"}
             />
 
             <PromotionCard
@@ -31,6 +33,8 @@ const Promotion = () => {
                 image={ipFixo}
                 alt={"Serviço de ip fixo"}
                 textoBotao={"Falar com um atendente! "}
+                link={"https://api.whatsapp.com/send?phone=558003334321&text=Ol%C3%A1,%20gostaria%20de%20conhecer%20o%20serviço%20de%20IP%20Fixo!"}
+                
             />
 
             <Premiacao/>
