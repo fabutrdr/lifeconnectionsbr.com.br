@@ -39,8 +39,6 @@ const Promotion = () => {
                 <img src={ultraVelocidade} alt="Internet de ultravelocidade para você e sua família." className="card-image"/>
             </div>
 
-            
-
         </section>
     )
 }
